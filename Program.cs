@@ -29,6 +29,11 @@
                 c = a / b;
                 Console.WriteLine("Ответ: " + c);
             }
+            else if (zn == '*')
+            {
+                c = a * b;
+                Console.WriteLine("Ответ: " + c);
+            }
         }
     }
 }
